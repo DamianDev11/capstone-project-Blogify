@@ -1,0 +1,46 @@
+# Node.js
+node_modules/
+
+# Python
+venv/
+__pycache__/
+
+# Compiled output
+dist/
+build/
+*.log
+
+# IDE/Editor files
+.vscode/
+.idea/
+.editorconfig
+
+# Environment configuration
+.env
+.env.local
+
+# Temporary files
+*.tmp
+tmp/
+
+# Database files
+*.db
+
+# Configuration files
+*.config
+config/
+
+# User-specific files
+*.iml
+.DS_Store
+
+# Generated files
+*.jar
+*.war
+
+# Authentication/Security files
+*.pem
+*.crt
+
+# Runtime files
+*.pid
