@@ -7,7 +7,7 @@ import connectToDb from "./db";
 import cors from "cors"
 
 const app = express();
-const port = process.env.PORT
+const port = process.env.PORT || 3000;
 
 app.use(compression());
 //app.use("/assets", express.static(join(__dirname, "public")));
